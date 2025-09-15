@@ -254,12 +254,7 @@ data.reset_index().to_csv("etf_prices.csv", index=False)
 print("Saved raw etf prices their daily returns, portfolio_values and portfolio_returns to DB and CSV.")
 
 # === Calculate simple metrics (KPIs) for Portfolios and Tickers ===
-# Import the numpy library for numerical calculations, such as calculating the square root.
-import numpy as np
-# Import the sqlite3 library for connecting and interacting with the SQLite database.
-import sqlite3
-# Import the pandas library for processing data in DataFrame and Series format.
-import pandas as pd
+
 
 # Define the number of trading days in a year.
 # This constant is used for the annual calculation of volatility and average return.
