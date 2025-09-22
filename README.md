@@ -262,7 +262,7 @@ This project showcases the **end-to-end data analysis pipeline**: from raw data 
   1. Download the repo: Click “Code” > “Download ZIP.”  
   2. Install dependencies: Run `pip install pandas numpy yfinance sqlite3` in your Python environment.  
   3. Run the notebook: Open `portfolio_analysis.ipynb` in Google Colab (preferred for easy setup) or Jupyter Notebook and execute cells to generate data. Note that the start date will be approximately 10 years before today (e.g., around September 15, 2015, as of now) and the end date will be today, differing from the showcased run (September 15, 2015, to September 12, 2025).  
-  4. View Power BI: Check `powerbi/` screenshots or import `powerbi/portfolio_analysis.pbix` (if uploaded) into Power BI Desktop.  
+  4. View Power BI: Check `powerbi/` screenshots or import `powerbi/portfolio_analysis.pbix`  into Power BI Desktop.  
 
 
 
