@@ -135,7 +135,7 @@ df_daily_returns = data.pct_change()
 ### Step 2: Portfolio Calculation and Metrics  
 - Rebalanced portfolios every 21 trading days (approximately monthly) using a custom function.  
 - Computed metrics: CAGR, Annual Volatility, Sharpe Ratio (risk-free rate = 1%), and Maximum Drawdown.
--  
+
 <details>
 <summary>📜 Example CAGR Calculation</summary>
 
@@ -173,16 +173,26 @@ WHERE name IN ("SPY", "Golden_Butterfly", "60_40", "All_Weather", "Permanent");
 - Imported CSV data into Power BI.  
 - Built a data model with table relationships.  
 - Created charts and visualizations using Power BI, with metrics pre-computed in Python, and used DAX for the interactive features I developed.  
-- The dashboard features interactivity with clickable metrics, dynamically displaying the best and worst portfolios by selected metric, enhancing user engagement and insight.  
+- The dashboard features interactivity with clickable metrics, dynamically displaying the best and worst portfolios by selected metric, enhancing user engagement and insight.
 
-📊 **Power BI Data Model Screenshot**  
+&nbsp;
+
+📊 <ins>**Power BI Data Model Screenshot:**</ins>
+
+&nbsp;
 <img width="1332" height="742" alt="Project Dashboard" src="https://github.com/user-attachments/assets/50a60190-b3f1-4196-91dc-8f4a5c137786" />  
 
-📊 **Model view Screenshot**  
+&nbsp;
+
+📊 <ins> **Model view Screenshot:**</ins> 
+
+&nbsp;
 <img width="1708" height="802" alt="DATA MODEL" src="https://github.com/user-attachments/assets/130c13da-6f0d-4bc2-b647-8c0b2aa98820" />
 
+&nbsp;
 
 <details>
+ 
 <summary>📜 Example DAX Measure (Best Portfolio):</summary>
 
 ```dax
@@ -257,7 +267,13 @@ This project showcases the **end-to-end data analysis pipeline**: from raw data 
 
 
 ---
+## 📌 Conclusion
 
+This project demonstrates how **portfolio construction impacts the risk/return trade-off**.
+
+While simplified, it highlights my ability to combine **Python (analysis), SQL (storage), and Power BI (visualization)** into an end-to-end workflow that answers a clear business question: _How do different strategies perform in terms of growth vs downside risk?_
+
+* * *
 ## 📬 Contact  
 - Email: [giorgos.grigoriou@yahoo.gr]  
 - I’m excited to apply my skills to real-world challenges—let’s talk about how I can support your team!  
